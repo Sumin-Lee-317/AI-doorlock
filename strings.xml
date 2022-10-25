@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">doorlock1025</string>
+
+    <string name="login_scr_signin">SIGN IN</string>
+    <string name="login_scr_forgetpassword">Forgot password?</string>
+    <string name="login_scr_continue">CONTINUE</string>
+    <string name="login_scr_signup">Don\'t have an account? Sign Up</string>
+
+</resources>
