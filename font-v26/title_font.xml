@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/myanmarmn"
+        android:textColor="@color/primary_blue1"
+
+        />
+
+
+    position: absolute;
+    width: 131px;
+    height: 18px;
+    left: 115px;
+    top: 82px;
+
+    font-family: 'Myanmar MN';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 18px;
+    /* identical to box height, or 53% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01px;
+    text-transform: uppercase;
+</font-family>
