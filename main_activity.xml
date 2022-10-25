@@ -1,0 +1,18 @@
+<TextView
+          android:width="wrap_content"
+          android:height="wrap_content"
+          android:
+          android:text="SIGN IN"
+          android:textSize=20sp
+          android:textColor="#3561FE"
+          android:typeface="글꼴"
+          />
+<EditText
+          android:id="@+id/EditUserName"
+          android:width="match_parent"
+          android:height="wrap_content"
+          android:hint="User Name"
+          android:textSize=20sp
+          android:typeface="글꼴"
+          android:backgroundColor="#F3F6FF"
+          />
