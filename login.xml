@@ -1,87 +1,72 @@
-<color name="primary_blue1">#3561FE</color>
-<color name="primary_blue2">#CCD9FF</color>
-<color name="primary_blue3">#F3F6FF</color>
-<color name="white">#FFFFFF</color>
-<color name="black">#000000</color>
-
-
-<string name="sign_in_scr_signin">SIGN IN</string>
-<string name="sign_in_scr_forgetpassword">Forgot password?</string>
-<string name="sign_in_scr_continue">CONTINUE</string>
-<string name="sign_in_scr_signup">Don't have an account? Sign Up</string>
-
-<string name="sign_in_scr_donthaveanaccount">Don't have an account?</string>
-<string name="sign_in_scr_signup">Sign Up</string>
-
-
-https://siadaddy-cordinglife.tistory.com/18?category=838219
-
 <?xml version="1.0" encoding="utf-8"?>
-<font-family xmlns:android="http://schemas.android.com/apk/res/android">
- 
-    <font android:fontStyle="normal"
-        android:fontWeight="400"
-        android:font="@font/nexon"/>
- 
-</font-family>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="60dp"
+        android:text="@string/login_scr_signin"
+        android:textColor="@color/primary_blue1"
+        android:fontFamily="@font/" />
 
-
-
-
-
-
-<TextView
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_gravity="center"
-          android:padding="20dp"
-          android:text="@string/SignIn_scr_signin"
-          android:textColor="@color/primary_blue1"
-          android:fontFamily="@font/" />
-
-
-<EditText
-          android:id="@+id/Edit_UserName"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:hint="User Name"
-          android:fontFamily="@font/"
-          android:background="@color/primary_blue3" />
-<EditText
-          android:id="@+id/Edit_Password"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:hint="Password"
-          android:fontFamily="@font/"
-          android:background="@color/primary_blue3" />
-
-
-<TextView
-          android:id="@+id/ForgotPassword"
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_gravity="right"
-          android:text="@string/SignIn_scr_forgetpassword"
-          android:textColor="@color/black"
-          android:fontFamily="@font/" />
-
-
-<Button
-        android:id="@+id/Btn_Contiunue"
+    <EditText
+        android:id="@+id/Edit_UserName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/SignIn_scr_continue"
-        android:background="@color/primary_blue1"
-        android:textColor="@color/white"
+        android:padding="15dp"
+        android:hint="User Name"
+        android:fontFamily="@font/"
+        android:background="@drawable/edittext_round"
+        tools:ignore="HardcodedText"/>
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/Edit_Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:hint="Password"
+        android:fontFamily="@font/"
+        android:background="@drawable/edittext_round"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:id="@+id/ForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/login_scr_forgetpassword"
+        android:textColor="@color/black"
         android:fontFamily="@font/" />
 
 
-<TextView
-          android:layout_width="wrap_content"
-          android:layout_height="wrap_content"
-          android:layout_gravity="center"
-          android:padding="20dp"
-          android:text="@string/SignIn_scr_signup"
-          android:textColor="@color/black"
-          android:fontFamily="@font/" />
+    <Button
+        android:id="@+id/Btn_Contiunue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_scr_continue"
+        android:background="@color/primary_blue1"
+        android:textColor="@color/white"
+        android:fontFamily="@font/"
+        android:padding="15dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/login_scr_signup"
+        android:textColor="@color/black"
+        android:fontFamily="@font/" />
+
+
+</LinearLayout>
