@@ -1,18 +1,48 @@
+<color name="primary_blue1">#3561FE</color>
+<color name="primary_blue2">#CCD9FF</color>
+<color name="primary_blue3">#F3F6FF</color>
+
+
+<string name="SignIn_scr_signin">SIGN IN</string>
+<string name="SignIn_scr_forgetpassword">Forgot password?</string>
+<string name="SignIn_scr_continue">CONTINUE</string>
+<string name="SignIn_scr_signup">Don't have an account? Sign Up</string>
+
+<string name="SignIn_scr_donthaveanaccount">Don't have an account?</string>
+<string name="SignIn_scr_signup">Sign Up</string>
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <font android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/nexon"/>
+ 
+</font-family>
+
+
+
+
+
+
+
 <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:padding=20dp
-          android:text="SIGN IN"
-          android:textSize=20sp
-          android:textColor="#3561FE"
-          android:typeface="글꼴"
+          android:layout_gravity="center"
+          android:padding="20dp"
+          android:text="@string/SignIn_scr_signin"
+          android:textColor="@color/primary_blue1"
+          android:fontFamily="@font/"
           />
 <EditText
           android:id="@+id/EditUserName"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:hint="User Name"
-          android:textSize=20sp
-          android:typeface="글꼴"
-          android:background="#F3F6FF"
+          android:fontFamily="@font/"
+          android:background="@color/primary_blue3"
           />
