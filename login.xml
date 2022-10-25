@@ -14,7 +14,8 @@
         android:layout_margin="60dp"
         android:text="@string/login_scr_signin"
         android:textColor="@color/primary_blue1"
-        android:fontFamily="@font/" />
+        android:fontFamily="@font/title_font"
+        android:textSize="35sp"/>
 
     <EditText
         android:id="@+id/Edit_UserName"
