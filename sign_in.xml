@@ -5,13 +5,13 @@
 <color name="black">#000000</color>
 
 
-<string name="SignIn_scr_signin">SIGN IN</string>
-<string name="SignIn_scr_forgetpassword">Forgot password?</string>
-<string name="SignIn_scr_continue">CONTINUE</string>
-<string name="SignIn_scr_signup">Don't have an account? Sign Up</string>
+<string name="sign_in_scr_signin">SIGN IN</string>
+<string name="sign_in_scr_forgetpassword">Forgot password?</string>
+<string name="sign_in_scr_continue">CONTINUE</string>
+<string name="sign_in_scr_signup">Don't have an account? Sign Up</string>
 
-<string name="SignIn_scr_donthaveanaccount">Don't have an account?</string>
-<string name="SignIn_scr_signup">Sign Up</string>
+<string name="sign_in_scr_donthaveanaccount">Don't have an account?</string>
+<string name="sign_in_scr_signup">Sign Up</string>
 
 
 https://siadaddy-cordinglife.tistory.com/18?category=838219
