@@ -1,9 +1,17 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">doorlock1025</string>
 
     <string name="login_scr_signin">SIGN IN</string>
     <string name="login_scr_forgetpassword">Forgot password?</string>
     <string name="login_scr_continue">CONTINUE</string>
-    <string name="login_scr_signup">Don\'t have an account? Sign Up</string>
+    <string name="login_scr_gosignup">Don\'t have an account? Sign Up</string>
+
+    <string name="logup_scr_signup">SIGN UP</string>
+    <string name="logup_scr_create_account">Create An Account</string>
+    <string name="logup_scr_forgetpassword">Forgot password?</string>
+    <string name="logup_scr_continue">CONTINUE</string>
+    <string name="logup_scr_passwordrule">Use 8 or more characters with a mix of letters\, numbers &amp; symbols</string>
+    <string name="logup_scr_policy">By signing up, you’re agree to our \nTerms of Use and Privacy Policy</string>
+    <string name="logup_scr_gosignup">Already have an account? Sign In</string>
 
 </resources>
