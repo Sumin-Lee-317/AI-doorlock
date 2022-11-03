@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="80dp"
             android:fontFamily="@font/title_font"
             android:text="@string/logup_scr_signup"
             android:textColor="@color/primary_blue1"
@@ -46,7 +46,7 @@
             android:hint="User Name"
             android:fontFamily="@font/"
             android:background="@drawable/edittext_round"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"/>
         <EditText
             android:layout_marginTop="15dp"
             android:id="@+id/Edit_Email"
@@ -56,7 +56,7 @@
             android:hint="Email"
             android:fontFamily="@font/"
             android:background="@drawable/edittext_round"
-            tools:ignore="HardcodedText" />
+            tools:ignore="HardcodedText"/>
         <EditText
             android:layout_marginTop="15dp"
             android:id="@+id/Edit_Password"
