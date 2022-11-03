@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:color="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/checkemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/title_font"
+            android:text="@string/vertifydoorlock_scr_vertify"
+            android:textColor="@color/primary_blue1"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="@font/text_font"
+            android:text="@string/vertifydoorlock_scr_explain_vertification_"
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center" >
+
+                <EditText
+                    android:id="@+id/edit_vertify_1"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:padding="15dp"
+                    android:fontFamily="@font/title_font"
+                    android:background="@drawable/edittext_round"
+                    android:textColor="@color/black"
+                    tools:ignore="HardcodedText"/>
+                <EditText
+                    android:id="@+id/edit_vertify_2"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:padding="15dp"
+                    android:fontFamily="@font/title_font"
+                    android:background="@drawable/edittext_round"
+                    android:textColor="@color/black"
+                    tools:ignore="HardcodedText"/>
+                <EditText
+                    android:id="@+id/edit_vertify_3"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:padding="15dp"
+                    android:fontFamily="@font/title_font"
+                    android:background="@drawable/edittext_round"
+                    android:textColor="@color/black"
+                    tools:ignore="HardcodedText"/>
+                <EditText
+                    android:id="@+id/edit_vertify_4"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:padding="15dp"
+                    android:fontFamily="@font/title_font"
+                    android:background="@drawable/edittext_round"
+                    android:textColor="@color/black"
+                    tools:ignore="HardcodedText"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Btn_Accountcreated"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_round"
+                    android:elevation="15dp"
+                    android:fontFamily="@font/title_font"
+                    android:padding="9dp"
+                    android:text="@string/vertifydoorlock_scr_confirm"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

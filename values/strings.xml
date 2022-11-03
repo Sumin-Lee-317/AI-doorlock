@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">doorlock1025</string>
+
+    <string name="login_scr_signin">SIGN IN</string>
+    <string name="login_scr_forgetpassword">Forgot password?</string>
+    <string name="login_scr_continue">CONTINUE</string>
+    <string name="login_scr_gosignup">Don\'t have an account? Sign Up</string>
+
+    <string name="vertifydoorlock_scr_vertify">Vertify Door Lock</string>
+    <string name="vertifydoorlock_scr_explain_vertification_">Please Enter The Vertification Code\nOn Your Door Lock</string>
+    <string name="vertifydoorlock_scr_confirm">CONFIRM</string>
+
+    <string name="logup_scr_signup">SIGN UP</string>
+    <string name="logup_scr_create_account">Create An Account</string>
+    <string name="logup_scr_forgetpassword">Forgot password?</string>
+    <string name="logup_scr_continue">CONTINUE</string>
+    <string name="logup_scr_passwordrule">Use 8 or more characters with a mix of letters\, numbers &amp; symbols</string>
+    <string name="logup_scr_policy">By signing up, you’re agree to our \nTerms of Use and Privacy Policy</string>
+    <string name="logup_scr_gosignup">Already have an account? Sign In</string>
+
+    <string name="email_scr_Check_email">Check Your Email</string>
+    <string name="email_scr_explain_confirm">Confirm Your Email Address To Continue</string>
+    <string name="email_scr_continue">CONTINUE</string>
+    <string name="email_scr_havenotreceived">Haven\'t received your email yet?</string>
+    <string name="email_scr_resend">Resend Email</string>
+
+    <string name="created_scr_Created">Account Created!</string>
+    <string name="created_scr_expalin_created">Your Account Has Been Created Successfully.\n Continue To Start Using The App!</string>
+    <string name="created_scr_continue">CONTINUE</string>
+
+    <string name="forgotpass_scr_forgot_password">Forgot Password</string>
+    <string name="forgotpass_scr_enter_explain_email">Enter The Email Associated With Your Account</string>
+    <string name="forgotpass_scr_confirm">CONFIRM</string>
+
+    <string name="resetpass_scr_reset_password">Reset Password</string>
+    <string name="resetpass_scr_passwordrule">Use 8 or more characters with a mix of letters, numbers &amp; symbols</string>
+    <string name="resetpass_scr_continue">CONTINUE</string>
+
+    <string name="success_scr_success">Success!</string>
+    <string name="success_scr_explain_success">Your Password Has Been Changed Successfully.\n Continue To Start Using The App!</string>
+    <string name="success_scr_continue">CONTINUE</string>
+
+    <string name="fail_scr_fail">Oops!</string>
+    <string name="fail_scr_expalin_fail">Unable To Change Your Password.\n Please Give It Another Try!</string>
+    <string name="fail_scr_continue">CONTINUE</string>
+
+    <string name="mypage_scr_mypage">MY PAGE</string>
+    <string name="mypage_scr_my_username">Username</string>
+    <string name="mypage_scr_my_email">Email</string>
+    <string name="mypage_scr_my_password">Password</string>
+    <string name="mypage_scr_my_delete">Delete Your Account</string>
+
+    <string name="addu_scr_add_user">ADD USER</string>
+    <string name="addu_scr_save">SAVE</string>
+    <string name="addu_scr_cancel">Cancel</string>
+
+    <string name="editu_scr_edit_user">EDIT USER</string>
+    <string name="editu_scr_edit">EDIT</string>
+    <string name="editu_scr_cancel">Cancel</string>
+    <string name="editu_scr_edit_delete">Delete Account</string>
+
+    <string name="home_scr_welcome">Welcome back,</string>
+    <string name="home_scr_name">Carly Rolfe</string>
+
+</resources>

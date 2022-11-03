@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:color="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="-55dp"
+            android:fontFamily="@font/text_font"
+            android:text="@string/home_scr_welcome"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="-5dp"
+            android:layout_marginLeft="-70dp"
+            android:fontFamily="@font/text_font"
+            android:text="@string/home_scr_name"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/button_circle_line1"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:background="@drawable/button_circle_line1"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="50dp"
+            android:text="Locked"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Btn_Home"
+        android:layout_width="142dp"
+        android:layout_height="125dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button_small"
+        android:elevation="15dp"
+        android:fontFamily="@font/title_font"
+        android:padding="25dp"
+        android:text="@string/success_scr_continue"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/Btn_Home"
+        android:layout_width="145dp"
+        android:layout_height="125dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_small"
+        android:elevation="15dp"
+        android:fontFamily="@font/title_font"
+        android:padding="25dp"
+        android:text="@string/success_scr_continue"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/Btn_Home"
+        android:layout_width="145dp"
+        android:layout_height="125dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-282dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_small"
+        android:elevation="15dp"
+        android:fontFamily="@font/title_font"
+        android:padding="25dp"
+        android:text="@string/success_scr_continue"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/Btn_Home"
+        android:layout_width="145dp"
+        android:layout_height="125dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="-9dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_small"
+        android:elevation="15dp"
+        android:fontFamily="@font/title_font"
+        android:padding="25dp"
+        android:text="@string/success_scr_continue"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+    </LinearLayout>
